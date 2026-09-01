@@ -1,0 +1,78 @@
+{
+  "product": "GameFold NS",
+  "baseline": "GameFold-NS-3.0-Mainline-Baseline-R3",
+  "confirmedDate": "2026-08-30",
+  "sourceCommit": "0d613020222ad9ebed9f9f0495eb7aec8232e807",
+  "gitTag": null,
+  "sourceWorktree": "gamefold-auto-assembly-v1/src/android",
+  "sourceWorktreeState": "preserved in place; R3 identity is frozen by APK and recorded source-file hashes",
+  "apk": "GameFold-NS-3.0-Baseline-R3.apk",
+  "sha256": "b86b00b1f9be145c245f44c70ae772a8f098619e5cc4fa2e377ae04808e75fd0",
+  "sizeBytes": 17033148,
+  "applicationLabel": "GameFold NS",
+  "applicationId": "com.switch.fold.baseline.lite",
+  "versionName": "3.0",
+  "versionCode": 33647389,
+  "minSdk": 24,
+  "targetSdk": 36,
+  "build": {
+    "variant": "mainlineRelease",
+    "offline": true,
+    "nativeArgs": "-DGLSLANGVALIDATOR=/private/tmp/switchfold-tools/glslangValidator",
+    "result": "BUILD SUCCESSFUL",
+    "unitTestTask": ":app:testMainlineReleaseUnitTest",
+    "unitTestResult": "NO-SOURCE",
+    "releaseOptimization": "R8, resource shrinking, resource optimization and lint vital completed"
+  },
+  "signature": {
+    "scheme": "v2",
+    "certificateSha256": "9d09b2001be0dde93ea0444c536b72270fab3eb1a2fccfd56e1a3c46cc0d7af1",
+    "certificateDn": "C=US, O=Android, CN=Android Debug"
+  },
+  "sourceFileHashes": {
+    "app/src/main/java/org/yuzu/yuzu_emu/ui/main/GameFoldAssemblyActivity.kt": "d4c769a2194853150fa4ac486535c81af922a5779ebe562020f04a3191fdf1ce",
+    "app/src/main/java/org/yuzu/yuzu_emu/views/GameFoldShellLayout.kt": "e6df96a24ad6eef84bb5b103d53de416a3ef94f3449b0a17816119fb75f033f7",
+    "app/src/main/java/org/yuzu/yuzu_emu/fragments/AboutFragment.kt": "94ceaef55bde76e888c8800c513b1b9e19373448bf83cf6e779fd21cf9f28db3",
+    "app/src/main/res/drawable-nodpi/gamefold_dual_screen_on.webp": "5293b3a154d9c17dc34ded947f24c9628f2b6feb45d14000d065f07512d71152",
+    "app/src/main/res/drawable-nodpi/gamefold_dual_screen_off.webp": "6925b91c95eacb0ed7f548cdc2cd76537ba65ad05ca047044c8603f2edc0288e",
+    "app/src/main/res/layout/fragment_games.xml": "d579c51f55341f9a8ca2184656e22ae42a1c67c6c31108918434c38c0bd9f5f2",
+    "app/src/main/res/layout-land/fragment_games.xml": "d579c51f55341f9a8ca2184656e22ae42a1c67c6c31108918434c38c0bd9f5f2",
+    "app/build.gradle.kts": "f421f66267c0c52d59903e6365da10395caa466f27f30281b701eb97bbec9444",
+    "app/src/main/AndroidManifest.xml": "a7dec8d58ceffc0f8e7ddf5fbc59187260a47793612c43b615920b6bddd4a524",
+    "tools/verify_gamefold_ns_branding.sh": "9e1fa9ec7e425c2449467f9acb016ae6e3e202ccd2894f5722fe5492e4c648ff"
+  },
+  "requestedChanges": {
+    "unsupportedUsageGate": "unsupported device or posture remains at the gate before file permission and game-resource preflight",
+    "configurationChanges": "re-route the gate when device/window posture changes",
+    "inheritedR2": "Xiaohongshu reuses Dribbble link, latest external-display assets, unchanged layout rules, run-as disabled"
+  },
+  "verification": {
+    "apkMetadata": "GameFold NS / com.switch.fold.baseline.lite / 3.0 / 33647389",
+    "mergedManifestDebuggableAttribute": "absent, Android default false",
+    "deviceSerial": "403G8G00BM611V0",
+    "deviceModel": "iPA2693",
+    "packageInstalled": true,
+    "installedVersionName": "3.0",
+    "installedVersionCode": 33647389,
+    "firstInstallTime": "2026-08-30 16:49:33",
+    "lastUpdateTime": "2026-08-30 16:59:39",
+    "runAsResult": "package not debuggable: com.switch.fold.baseline.lite",
+    "installedApkHashMatched": true,
+    "installedApkByteComparison": "cmp=0",
+    "coldStart": "Status ok; GameFoldAssemblyActivity; process remained alive; crash filters empty",
+    "userAcceptance": "user completed real-device testing and confirmed the fix OK",
+    "installMethod": "vivo assisted in-place update without clearing app data",
+    "acceptanceBoundary": "source and artifact identity, early unsupported-device/posture gate, run-as closure, cold start and user real-device acceptance are complete"
+  },
+  "rollback": {
+    "baseline": "GameFold-NS-3.0-Mainline-Baseline-R2",
+    "apk": "../GameFold-NS-3.0-Mainline-Baseline-R2/GameFold-NS-3.0-Baseline-R2.apk",
+    "sha256": "f781b9f3e41c03b7ed627abcbf75ede7fc5f75371bba408533c541e0fac75d8e"
+  },
+  "scope": {
+    "gamefoldNs": "3.0 R3 early unsupported-usage gate",
+    "gamefoldPc": "out of scope and unchanged",
+    "gamefoldFc": "out of scope and unchanged",
+    "officialSite": "out of scope and unchanged"
+  }
+}
