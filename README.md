@@ -23,18 +23,18 @@
 | 源码状态 | 以仓库中的 baseline/ 和版本说明为准 |
 
 
-## 为折叠屏而设计 · Designed around folding screens
+## 打开折叠屏，进入游戏状态 · Your foldable, ready for game time
 
-
-- **打开就是游戏空间：**展开设备后进入熟悉的游戏库，让大屏显示与掌上操控自然衔接。  
-  **A game space when you unfold:** the library brings the large display and handheld controls together.
-- **为姿态变化准备：**折叠状态、展开状态与不支持的姿态有明确处理，降低误触和界面错位。  
-  **Thoughtful posture handling:** folded, open and unsupported postures are handled deliberately to avoid accidental input and awkward layouts.
-- **让触控更像手柄：**支持虚拟方向键、摇杆、按键布局与封面式游戏入口；使用者可按设备握持习惯进行操作。  
-  **Touch that feels familiar:** combine a virtual D-pad, sticks, action buttons and cartridge-style game tiles in a layout built for handheld play.
-- **把复杂装配留在后台：**自动装配能力帮助完成启动所需的准备步骤。具体游戏兼容性取决于设备、游戏文件与运行环境。  
-  **Less setup in the way:** automatic assembly handles preparation for launch. Compatibility still depends on the device, game files and runtime environment.
-
+- **从游戏库直接开始：**按官网指引安装 GameFold NS、准备 Switch 游戏资源并将完整资源文件夹放入手机根目录；随后从游戏库选择并启动。自动装配功能会处理启动所需的准备步骤。  
+  **Start from your game library:** install GameFold NS, prepare Switch game resources and place the complete folder in the device root as guided. Then choose a game from the library; automatic assembly handles the preparation needed for launch.
+- **上屏玩游戏，下屏做操作：**展开设备后，游戏画面与 Joy-Con 风格触控布局各有位置，让视线专注在游戏、手指专注在操作。  
+  **Play above, control below:** when unfolded, the game takes the upper display while Joy-Con-style touch controls sit below, giving gameplay and input their own space.
+- **常用操作就在拇指附近：**D-pad、摇杆与核心按键按双手握持时的自然落点组织，减少触屏寻找按键的感觉。  
+  **Core controls within thumb reach:** the D-pad, sticks and action buttons follow the natural thumb positions of a two-handed grip, making touch input feel easier to follow.
+- **背屏也能成为辅助输入区：**在支持的折叠屏设备上，可将背面屏幕用于额外触控按键，并配合多指协同操作。  
+  **Put the rear display to work:** on supported foldable devices, use the back screen for extra touch buttons and coordinate multiple fingers.
+- **触控操作带有声音与震动反馈：**按键和摇杆的反馈帮助确认输入；可用效果取决于设备支持。  
+  **Feedback for touch controls:** custom sounds and vibration for buttons and sticks help confirm each input; available effects depend on device support.
 
 > GameFold 是个人的非商业折叠屏游戏体验项目。仓库不含第三方游戏文件；相关品牌与商标归各自权利人所有，本项目与其没有隶属、合作或授权关系。  
 > GameFold is a personal, non-commercial foldable gaming project. Third-party game files are not included. All third-party names and marks belong to their respective owners; this project is not affiliated with or endorsed by them.
